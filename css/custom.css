@@ -550,13 +550,15 @@ h5{font-size: 16px; line-height: 1.5;}
   .about-sec .about-sec-img::after { width: 170px; height: 170px; transform: translate(40%, -6%); }
   .about-sec .about-sec-img img { width: 160px; height: 160px; transform: translate(-16%, 40%); }
   .about-sec .about-sec-img::before { width: 40px; height: 40px; transform: translate(130%, 313%); }
-  .about-sec .common-heading::after { transform: translate(119%, -68%); }
+  .about-sec .common-heading::after { transform: translate(109%, -68%); }
 
-  .skills-sec .common-heading::after { transform: translate(150%, 50%); }
+  .education-sec .common-heading::after { transform: translate(-40%, 41%); }
 
-  .potentials-sec .common-heading::after { transform: translate(131%, 26%); }
+  .skills-sec .common-heading::after { transform: translate(130%, 50%); }
 
-  .basic-info-sec .common-heading::after { transform: translate(37%, 33%); }
+  .potentials-sec .common-heading::after { transform: translate(121%, 26%); }
+
+  .basic-info-sec .common-heading::after { transform: translate(27%, 33%); }
 }
 
 
