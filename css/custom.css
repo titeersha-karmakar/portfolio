@@ -530,6 +530,8 @@ h5{font-size: 16px; line-height: 1.5;}
 
 /*-------media screen{767px}------*/
 
+/*-------media screen{546px}------*/
+
 @media only screen and (max-width: 546px) {
 
   .banner-sec .img-wrap img { width: 160px; height: 210px; transform: translate(20%, 0%); }
@@ -543,7 +545,13 @@ h5{font-size: 16px; line-height: 1.5;}
   .potentials-sec .common-heading::after {display: none; }
 
   .basic-info-sec .common-heading::after { display: none; }
+
+  .potentials-sec .potentials-wrap ul li .potentials-box .potential-overlay h5 { padding: 15px; line-height: 1.2; font-size: 13px; }
 }
+
+/*-------media screen{546px}------*/
+
+/*-------media screen{410px}------*/
 
 @media only screen and (max-width: 410px) {
   .banner-sec .banner-info { padding: 90px 0 50px 0; text-align: center; }
@@ -563,7 +571,7 @@ h5{font-size: 16px; line-height: 1.5;}
 
   .basic-info-sec .common-heading::after { display: none; }
 }
-
+/*-------media screen{410px}------*/
 
 /* media screen */
 
