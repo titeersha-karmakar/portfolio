@@ -534,12 +534,15 @@ h5{font-size: 16px; line-height: 1.5;}
 
   .banner-sec .img-wrap img { width: 160px; height: 210px; transform: translate(20%, 0%); }
   .banner-sec .img-wrap::after { width: 170px; height: 210px; transform: translate(-69%, -85%); }
+  .about-sec .common-heading::after {display: none;}
 
-  .skills-sec .common-heading::after {transform: translate(201%, 50%);}
+  .education-sec .common-heading::after {display: none; }
 
-  .potentials-sec .common-heading::after { transform: translate(178%, 26%); }
+  .skills-sec .common-heading::after {display: none; }
 
-  .basic-info-sec .common-heading::after { transform: translate(60%, 33%); }
+  .potentials-sec .common-heading::after {display: none; }
+
+  .basic-info-sec .common-heading::after { display: none; }
 }
 
 @media only screen and (max-width: 410px) {
