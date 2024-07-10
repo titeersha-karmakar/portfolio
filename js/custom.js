@@ -26,10 +26,6 @@ AOS.init({
 });
 // aos //
 
-
-
-
-
 //pointer animation//
 document.addEventListener('DOMContentLoaded', () => {
   const cursor = document.createElement('div');

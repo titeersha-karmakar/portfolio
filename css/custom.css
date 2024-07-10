@@ -541,6 +541,25 @@ h5{font-size: 16px; line-height: 1.5;}
 
   .basic-info-sec .common-heading::after { transform: translate(60%, 33%); }
 }
+
+@media only screen and (max-width: 410px) {
+  .banner-sec .banner-info { padding: 90px 0 50px 0; text-align: center; }
+  .banner-sec .banner-info h4 { font-size: 17px; }
+  .banner-sec .banner-info .heading-wrap h1 { font-size: 26px; }
+
+  .about-sec .about-sec-img::after { width: 170px; height: 170px; transform: translate(40%, -6%); }
+  .about-sec .about-sec-img img { width: 160px; height: 160px; transform: translate(-16%, 40%); }
+  .about-sec .about-sec-img::before { width: 40px; height: 40px; transform: translate(130%, 313%); }
+  .about-sec .common-heading::after { transform: translate(119%, -68%); }
+
+  .skills-sec .common-heading::after { transform: translate(150%, 50%); }
+
+  .potentials-sec .common-heading::after { transform: translate(131%, 26%); }
+
+  .basic-info-sec .common-heading::after { transform: translate(37%, 33%); }
+}
+
+
 /* media screen */
 
 /* cursor animation */
