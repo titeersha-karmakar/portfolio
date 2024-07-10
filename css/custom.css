@@ -533,6 +533,7 @@ h5{font-size: 16px; line-height: 1.5;}
 /*-------media screen{546px}------*/
 
 @media only screen and (max-width: 546px) {
+.btn.btn-norm, a.btn.btn-norm { padding: 9px 12px 6px; font-size: 12px; }
 
   .banner-sec .img-wrap img { width: 160px; height: 210px; transform: translate(20%, 0%); }
   .banner-sec .img-wrap::after { width: 170px; height: 210px; transform: translate(-69%, -85%); }
