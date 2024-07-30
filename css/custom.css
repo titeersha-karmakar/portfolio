@@ -292,6 +292,7 @@ a.btn.btn-drop:hover {transform:translateY(-20px);backdrop-filter: blur(5px); co
 
 /*-------media screen{1199px}------*/
 @media screen and (max-width:1200px) {
+  h1{font-size: 2rem;}
   .basic-info-sec .info-img img {transform: translate(-30%, -30%); }
   .basic-info-sec .info-img::after { width: 400px; height: 420px; transform: translate(58%, -10%);}
 
