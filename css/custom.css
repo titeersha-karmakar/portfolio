@@ -45,7 +45,7 @@ ul{list-style: none; margin: 0; padding: 0;}
 .btn.btn-norm:hover::before {width: 150px; }
 .btn.btn-norm:hover{color: #1e5eff;}
 
-.btn.btn-drop, a.btn.btn-drop{ animation: glow 1s infinite ; transition:0.5s; text-decoration: none; color:var(--secondary-color); background-color: #ead9df; padding: 32px 0; border: none; border-radius: 100px; display: inline-block; position: fixed; bottom: 0; right:50%; z-index: 9999; width: 80px; height: 80px; display: flex; justify-content: center;}
+.btn.btn-drop, a.btn.btn-drop{ animation: glow 1s infinite ; transition:0.5s; text-decoration: none; color:var(--secondary-color); background-color: #ead9df; padding: 32px 0; border: none; border-radius: 100px; position: fixed; bottom: 0; right:50%; z-index: 9999; width: 80px; height: 80px; display: flex; justify-content: center; align-items: center;}
 a.btn.btn-drop:hover {transform:translateY(-20px);backdrop-filter: blur(5px); color: #ffffff; background-color: #f499bd; border: 1px solid #f499bd; transition: 0.5s; text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff; box-shadow: 0 0 5px #f499bd, 0 0 5px #f499bd, 0 0 10px #f499bd,0 0 16px #f499bd;}
 
 /****button styles****/
@@ -332,6 +332,8 @@ body.menu-open{overflow-y: hidden;}
 .nav-btn.open span:nth-child(1){transform: rotate(45deg); transition: 0.5s ease;}
 .nav-btn.open span:nth-child(2){right: -100px; display: none; transition: 0.5s ease;}
 .nav-btn.open span:nth-child(3){transform: rotate(-45deg); transition: 0.5s ease; top:0;} */
+
+.btn.btn-drop, a.btn.btn-drop{ width: 50px; height: 50px; display: flex; justify-content: center; align-items: center;}
 
 .footer-contact-wrap .fixed-one a.btn-st:link, .btn-st:visited { text-transform: uppercase; text-decoration: none; color: #ffffff; background-color: #150e567d; padding: 5px; border: 1px solid; border-radius: 100px; display: inline-block; transition: all .2s; position: fixed; bottom: 40px; right: 40px; z-index: 9999; width: 40px; height: 40px; display: flex; justify-content: center; justify-content: center; align-items: center; backdrop-filter: blur(5px); }
 
