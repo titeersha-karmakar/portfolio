@@ -215,11 +215,10 @@ a.btn.btn-drop:hover {transform:translateY(-20px);backdrop-filter: blur(5px); co
 /*-------media screen{1700px}------*/
 
  @media only screen and (max-width: 1700px){ 
-  .img-wrap img { position: absolute; top: 10%; bottom: 0; right: 0; left: 60%; height: 100%; object-fit: cover; z-index: 2; box-shadow: 0px 1px  11px var(--secondary-color); margin: 0 auto; width: 250px; height: 350px; border-radius: 10px; transition: 0.6s ease; }
-  .img-wrap::after { transform: translate(32%, -46%); }
+ 
   .basic-info-sec .info-img::after {width: 540px; height: 530px;}
   .education-sec .common-heading::after { width: 140px; transform: translate(-462%, 29%); }
-  .banner-sec .banner-content .down-arr-wrap a.btn.btn-drop { margin-bottom: -150px;}
+  .banner-sec .banner-content .down-arr-wrap a.btn.btn-drop { margin-bottom: -50px;}
 }
 /*-------media screen{1700px}------*/
 
