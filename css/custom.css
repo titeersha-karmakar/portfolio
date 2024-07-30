@@ -312,7 +312,7 @@ a.btn.btn-drop:hover {transform:translateY(-20px);backdrop-filter: blur(5px); co
 /*-------media screen{1120px}------ */
 
 /*-------media screen{1024px}------*/
-  @media only screen and (max-width: 1025px) {
+  @media only screen and (max-width: 1024px) {
 
 /* .main-header{position: relative;}
 .main-menu{position: absolute; background-color: #9891dadb; top:0; right: 0; z-index: 9999; max-width:100%; min-height: 100vh; transform: translateY(-100%); transition: 0.5s ease;} 
