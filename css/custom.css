@@ -253,6 +253,7 @@ a.btn.btn-drop:hover {transform:translateY(-20px);backdrop-filter: blur(5px); co
 
 /*-------media screen{1201px}------*/
 @media only screen and (max-eidth:1201px) {
+  .banner-sec .banner-info .heading-wrap h1{font-size: 2rem;}
   .education-sec .common-heading::after { transform: translate(-397%, 21%); }
 }
 /*-------media screen{1201px}------*/
@@ -260,7 +261,7 @@ a.btn.btn-drop:hover {transform:translateY(-20px);backdrop-filter: blur(5px); co
 /*-------media screen{1200px}------*/
 @media only screen and (max-width: 1200px) {
  
-  .banner-sec .banner-info .heading-wrap h1{font-size: 2rem;}
+    .banner-sec .banner-info .heading-wrap h1{font-size: 2rem;}
     h2{font-size: 25px;}
     h3{font-size: 22px;}
     h4{font-size: 20px;}
