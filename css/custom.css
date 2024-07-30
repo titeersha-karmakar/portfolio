@@ -260,7 +260,7 @@ a.btn.btn-drop:hover {transform:translateY(-20px);backdrop-filter: blur(5px); co
 /*-------media screen{1200px}------*/
 @media only screen and (max-width: 1200px) {
  
-    h1{font-size: 2rem;}
+  .banner-sec .banner-info .heading-wrap h1{font-size: 2rem;}
     h2{font-size: 25px;}
     h3{font-size: 22px;}
     h4{font-size: 20px;}
@@ -292,7 +292,7 @@ a.btn.btn-drop:hover {transform:translateY(-20px);backdrop-filter: blur(5px); co
 
 /*-------media screen{1199px}------*/
 @media screen and (max-width:1200px) {
-  h1{font-size: 2rem;}
+  .banner-sec .banner-info .heading-wrap h1 {font-size: 2rem;}
   .basic-info-sec .info-img img {transform: translate(-30%, -30%); }
   .basic-info-sec .info-img::after { width: 400px; height: 420px; transform: translate(58%, -10%);}
 
